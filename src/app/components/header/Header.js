@@ -1,0 +1,17 @@
+import { default as React} from 'react';
+import { useHistory } from 'react-router-dom';
+import * as Assets from '../../assets';
+
+import './header.scss';
+
+const Header = () => {
+	const history = useHistory();
+
+	return (
+		<div className="header">
+			<img className="header__buttonHome" src={Assets.ButtonHome} onClick={ () => history.push('/story/2') }></img>
+		</div>
+	)
+}
+
+export default Header;

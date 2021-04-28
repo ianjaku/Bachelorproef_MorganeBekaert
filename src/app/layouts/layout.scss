@@ -1,0 +1,54 @@
+@import '../_sass/abstracts/index';
+
+.story-dark {
+	position: relative;
+
+	&__main {
+		position: absolute;
+		z-index: 10;
+	}
+	&__background {
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+	}
+}
+.story-hills {
+	position: relative;
+
+	&__main {
+		position: absolute;
+		z-index: 10;
+	}
+	&__background {
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+	}
+}
+.story-light {
+	position: relative;
+
+	&__main {
+		position: fixed;
+		z-index: 10;
+	}
+	&__background {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+	}
+}
+.story-river {
+	position: relative;
+
+	&__main {
+		position: absolute;
+		z-index: 10;
+	}
+	&__background {
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+	}
+}

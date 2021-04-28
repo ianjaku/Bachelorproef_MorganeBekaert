@@ -1,0 +1,1202 @@
+@import '../../_sass/abstracts/';
+
+.story00 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__wrapper {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		top: 3%;
+		margin-left: 260px;
+		align-items: center;
+		h1 {
+			font-size: 24px;
+			color: $color-brown;
+		}
+		&-turn {
+			width: 278px;
+			height: 188px;
+			padding-top: 35px;
+			padding-left: 90px;
+		}
+	}
+	&__tree {
+		position: absolute;
+		bottom: 0;
+		width: 900px;
+		height: 674px;
+	}
+	&__arrow {
+		position: absolute;
+		top: 50%; 
+		right: 0;
+		margin-top: -40px;
+		padding: 0 130px;
+		width: 272px;
+		height: 128px;
+		}
+}
+.story01 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	h1 {
+		position: absolute;
+		padding: 40px 60px;
+		font-size: 28px;
+		color: $color-brown;
+	}
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		bottom: 0;
+		width: 900px;
+		height: 674px;
+	}
+	&__wrapper {
+		position: absolute;
+		top: 50%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 60px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h2 {
+			font-size: 24px;
+			color: $color-brown;
+		}
+		&-arrow {
+			width: 272px;
+			height: 128px;
+		}
+	}
+}
+.story02 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		left: 26%;
+		width: 240px;
+		height: 366px;
+		padding-bottom: 40px;
+	}
+	&__text {
+		position: absolute;
+		right: 0;
+		top: 75%;
+		margin: 0;
+		margin-top: -50px;
+		padding: 0 60px;
+		width: 400px;
+		text-align: center;
+		font-size: 24px;
+		color: $color-brown;
+	}
+	&__score {
+		position: absolute;
+		right: 0;
+		top: 90%;
+		margin: 0;
+		margin-top: -50px;
+		padding: 0 240px;
+		font-size: 40px;
+		color: $color-brown;
+	}
+	&__game {
+		position: absolute;
+		width: 80vw;
+		padding-left: 15vw;
+		height: 100vh;
+		&-element {}
+	}
+}
+.story03 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+	}
+	&__snuitertje {
+		position: absolute;
+		top: 0;
+		padding: 0 100px;
+		width: 240px;
+		height: 366px;
+	}
+	&__doctor {
+		position: absolute;
+		bottom: 0;
+		width: 430px;
+		height: 512px;
+	}
+	&__text {
+		position: absolute;
+		top: 50%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 60px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-brown;
+		width: 400px;
+	}
+}
+.story04 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__dawn {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background-color: black;
+		z-index: 10;
+	}
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__moon {
+		position: absolute;
+		left: 60%;
+		width: 212px;
+		height: 192px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+	}
+	&__snuitertje {
+		position: absolute;
+		top: 0;
+		left: 13%;
+		width: 240px;
+		height: 366px;
+	}
+	&__wrapper {
+		position: absolute;
+		top: 40%; 
+		right: 0;
+		padding: 0 60px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 450px;
+		font-size: 24px;
+		color: $color-brown;
+		
+	}
+	&__blanket{
+		position: absolute;
+		top: 0;
+		top: 17%;
+		left: 13%;
+		width: 267px;
+		height: 139px;
+	}
+	&__arrow {
+		position: absolute;
+		top: 60%; 
+		right: 0;
+		padding-right: 150px;
+		width: 272px;
+		height: 128px;
+		z-index: 20;
+		}
+}
+.story05 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+
+	}
+	&__doctor {
+		position: absolute;
+		top: 0;
+		left: 190px;
+		width: 240px;
+		height: 366px;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 60px;
+		left: 35%;
+		width: 240px;
+		height: 366px;
+		transform: scale(-1,1);		
+	}
+	&__kit {
+		position: absolute;
+		bottom: 10px;
+		right: 40px;
+		width: 372px;
+		height: 390px;
+	}
+	&__text {
+		position: absolute;
+		top: 35%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 60px;
+		font-size: 22px;
+		text-align: center;
+		color: $color-brown;
+		width: 400px;
+	}
+
+	&__saw {
+		position: absolute;
+		bottom: 60px;
+		right: 80px;
+		width: 200px;
+		height: 140px;
+	}
+	#dropzone5 {
+		position: absolute;
+		top: 60px;
+		left: 100px;
+		background-color: red;
+		opacity: 0.1;
+		width: 400px;
+		height: 250px;
+	}
+}
+.story06 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 50px;
+		left: 35%;
+		width: 240px;
+		height: 366px;
+		transform: scale(-1,1);		
+	}
+	&__saw{
+		position: absolute;
+		padding: 130px 185px;
+		width: 103px;
+		height: 89px;
+	}
+	&__doctor {
+		position: absolute;
+		padding: 60px 260px;
+		width: 240px;
+		height: 366px;
+	}
+	&__kit {
+		position: absolute;
+		bottom: 0;
+		bottom: 10px;
+		right: 40px;
+		width: 372px;
+		height: 390px;
+	}
+	&__text {
+		position: absolute;
+		top: 50%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 60px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 24px;
+		color: $color-brown;
+		width: 400px;
+	}
+	&__sickBranch {
+		position: absolute;
+		top: 0;
+		padding-left: 85px;
+		width: 320px;
+		height: 260px;
+	}
+	#dropzone6 {
+		position: absolute;
+		bottom: 110px;
+		left: 230px;
+		background-color: red;
+		opacity: 0.1;
+		width: 400px;
+		height: 210px;
+	}
+}
+.story07{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+	}
+	&__medicin {
+		position: absolute;
+		padding-top: 290px;
+		padding-left: 20px;
+		width: 329px;
+		height: 306px;
+	}
+	&__plaster {
+		position: absolute;
+		width: 160px;
+		height: 140px;
+		padding-left: 20px;
+	}
+	&__doctor {
+		position: absolute;
+		padding-top: 170px;
+		padding-left: 300px;
+		width: 240px;
+		height: 366px;
+	}
+	&__sickBranch {
+		position: absolute;
+		bottom: 0;
+		padding-left: 360px;
+		padding-bottom: 100px;
+		width: 337px;
+		height: 246px;
+	}
+	&__kit {
+		position: absolute;
+		bottom: 0;
+		bottom: 10px;
+		right: 40px;
+		width: 372px;
+		height: 390px;
+	}
+	&__saw{
+		position: absolute;
+		// padding: 140px 220px;
+		bottom: 0;
+		padding-left: 380px;
+		padding-bottom: 100px;
+		width: 103px;
+		height: 89px;
+	}
+	&__text {
+		position: absolute;
+		top: 20%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 60px;
+		font-size: 22px;
+		text-align: center;
+		color: $color-brown;
+		width: 400px;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		left: 50%; 
+		width: 280px;
+		height: 299px;
+		transform: scale(-1,1);		
+	}
+	#dropzone7 {
+		position: absolute;
+		bottom: 0;
+		background-color: red;
+		opacity: 0.1;
+		width: 280px;
+		height: 310px;
+	}	
+}
+.story08{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+	}
+	&__medicin {
+		position: absolute;
+		padding-top: 290px;
+		padding-left: 20px;
+		width: 329px;
+		height: 306px;
+	}
+	&__plaster {
+		position: absolute;
+		width: 160px;
+		height: 140px;
+		padding-left: 20px;
+	}
+	&__sickBranch {
+		position: absolute;
+		bottom: 0;
+		padding-left: 450px;
+		// width: 344px;
+		// height: 307px;
+	}
+	&__stone{
+		position: absolute;
+		width: 41px;
+		height: 35px;
+		bottom: 0;
+		padding-bottom: 250px;
+		right: 25%;
+		
+
+	}
+	&__jar{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-right: 300px;
+		padding-bottom: 100px;
+		width: 128px;
+		height: 166px;
+	}
+	&__doctor {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 359px;
+		height: 512px;
+	}
+	
+	&__text {
+		position: absolute;
+		top: 40%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 60px;
+		font-size: 22px;
+		text-align: center;
+		color: $color-brown;
+		width: 400px;
+	}
+	&__text2 {
+		position: absolute;
+		// top: 50%; 
+		left: 0;
+		bottom: 0;
+		margin-left: 140px;
+		// margin-top: -100px;
+		padding: 0 60px;
+		font-size: 22px;
+		text-align: center;
+		color: $color-brown;
+		width: 400px;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 60px;
+		left: 43%;
+		width: 240px;
+		height: 366px;
+	}
+	#dropzone8 {
+		position: absolute;
+		bottom: 7%;
+		left: 43%;
+		background-color: red;
+		opacity: 0.1;
+		width: 200px;
+		height: 350px;
+	}	
+}
+.story09{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		max-width: 80vw;
+	}
+	&__medicin {
+		position: absolute;
+		padding-top: 290px;
+		padding-left: 20px;
+		width: 329px;
+		height: 306px;
+	}
+	&__plaster {
+		position: absolute;
+		width: 160px;
+		height: 140px;
+		padding-left: 20px;
+	}	
+	&__sickBranch {
+		position: absolute;
+		bottom: 0;
+		padding-left: 450px;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 60px;
+		right: 0;
+		width: 40px;
+		height: 326px;
+	}
+	&__text {
+		position: absolute;
+		top: 40%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 60px;
+		font-size: 22px;
+		text-align: center;
+		color: $color-brown;
+		width: 400px;
+	}
+}
+.story10{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		right: 0;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-bottom: 30px;
+		padding-right: 230px;
+		height: 366px;
+	}
+	&__owl {
+		position: absolute;
+		left: 0;
+		padding: 150px 45px;
+		width: 225px;
+		height: 361px;
+	}
+	&__text {
+		position: absolute;
+		top: 15%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 120px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-brown;
+		width: 500px;
+	}
+	&__text2 {
+		position: absolute;
+		top: 60%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 120px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-brown;
+		width: 700px;
+	}
+	&__arrow {
+		position: absolute;
+		bottom: 10%; 
+		padding-left: 150px;
+		width: 272px;
+		height: 128px;
+		}
+}
+.story11{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		right: 0;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding-bottom: 30px;
+		padding-left: 200px;
+		height: 366px;
+	}	
+	&__text {
+		position: absolute;
+		top: 20%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 90px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 500px;
+	}
+}
+.story12{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		right: 0;
+	}
+	&__snuitertje {
+		position: absolute;
+		right: 0;
+		padding-right: 550px;
+		padding-top: 160px;
+		height: 263px;
+		width: 209px;
+	}
+	&__sheep{
+		position: absolute;
+		right: 0;
+		width: 840px;
+		height: 560px;
+	}
+	&__text {
+		position: absolute;
+		top: 20%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 90px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 500px;
+	}
+	&__text2 {
+		position: absolute;
+		top: 40%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 70px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 420px;
+	}
+}
+.story13{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		right: 0;
+	}
+	&__crown{
+		position: absolute;	
+		width: 164px;
+		height: 106px;
+		padding-top: 350px;
+		padding-left: 480px;
+	}
+	&__sheep{
+		position: absolute;
+		right: 0;
+		width: 840px;
+		height: 560px;
+	}
+	&__text {
+		position: absolute;
+		top: 20%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 90px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 400px;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding-bottom: 30px;
+		padding-left: 90px;
+		height: 317px;
+		width: 205;
+	}
+	#dropzone13 {
+		position: absolute;
+		bottom: 3%;
+		left: 7%;
+		background-color: red;
+		opacity: 0.1;
+		width: 180px;
+		height: 270px;
+	}	
+}
+.story14{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__bigStone {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-bottom: 290px;
+		width: 722px;
+		height: 396px;
+	}
+	&__snuitertje {
+		position: absolute;
+		right: 0;
+		padding-top: 20px;
+		padding-right: 170px;
+		height: 336px;
+	}
+	&__snuitertje2 {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-left: 170px;
+		height: 336px;
+		transform: rotate(180deg);  //nog aanpassen op ipad
+		opacity: 50%;
+	}
+	&__stone{
+		position: absolute;
+		padding: 150px 200px;
+		width: 646px;
+		height: 514px;
+	}
+	&__text {
+		position: absolute;
+		top: 15%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 120px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-brown;
+		width: 500px;
+	}
+}
+.story15{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__tree {
+		position: absolute;
+		left: 15vw;
+		top: 10vh;
+		width: 689px;
+		height: 687px;
+	}
+	&__snuitertje {
+		position: absolute;
+		top: 52vh;
+		left: 38vw;
+		height: 191px;
+		width: 156px;
+	}
+	&__doctor {
+		position: absolute;
+		right: 0;
+		top: 30%;
+		width: 100px;
+		height: 149px;
+	}
+	&__text {
+		position: absolute;
+		bottom: 10vh; 
+		right: 6vw;
+		margin: 0;
+		font-size: 24px;
+		text-align: center;
+		color: $color-brown;
+		width: 500px;
+	}
+}
+.story16{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		right: 0;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding-bottom: 30px;
+		padding-left: 230px;
+		height: 366px;
+	}
+	&__magnifyingGlass{
+		position: absolute;
+		right: 0;
+		padding: 140px 110px;
+		width: 215px;
+		height: 210px;
+	}
+	&__doctor{
+		transform: scale(-1,1);		
+		width: 201px;
+		height: 261px;
+		padding-right: 900px;
+		padding-top: 210px;	}
+	&__text {
+		position: absolute;
+		top: 35%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 120px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 500px;
+	}
+}
+.story17{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		right: 0;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding-bottom: 30px;
+		padding-left: 230px;
+		height: 366px;
+	}
+	&__magnifyingGlass{
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding-right: 65px;
+		width: 318px;
+		height: 350px;
+	}
+	&__doctor{
+		transform: scale(-1,1);		
+		width: 201px;
+		height: 261px;
+		padding-right: 900px;
+		padding-top: 210px;
+	}
+	&__text {
+		position: absolute;
+		top: 35%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 120px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 500px;
+	}
+}
+.story18{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		left: 0;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-bottom: 30px;
+		padding-right: 230px;
+		height: 366px;
+		transform: scale(-1,1);		
+	}
+	&__jar{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-right: 300px;
+		padding-bottom: 100px;
+		width: 128px;
+		height: 166px;
+	}
+	&__text {
+		position: absolute;
+		top: 25%; 
+		right: 0;
+		margin-top: -100px;
+		padding: 0 80px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 300px;
+	}
+}
+.story19{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__tree {
+		position: absolute;
+		height: 100vh;
+		right: 0;
+	}
+	&__snuitertje {
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 100px;
+		padding-left: 260px;
+		height: 366px;
+	}
+	&__jar{
+		position: absolute;
+		bottom: 0;
+		padding-left: 600px;
+		padding-bottom: 100px;
+		width: 163px;
+		height: 211px;
+	}
+	&__acornsRight {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-right: 330px;
+		padding-bottom: 80px;
+		// width: 220px;
+		height: 177px;
+	}
+	&__acornsLeft {
+		position: absolute;
+		bottom: 0;
+		padding-left: 370px;
+		padding-bottom: 20px;
+		// width: 220px;
+		height: 177px;
+	}
+	&__text {
+		position: absolute;
+		top: 25%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 80px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-darkBrown;
+		width: 300px;
+	}
+	&__acorn {
+		position: absolute;
+		bottom: 0;
+		height: 71px;
+		right: 0;
+		padding-right: 230px;
+		padding-bottom: 330px;
+	}
+	#dropzone19 {
+		position: absolute;
+		bottom: 100px;
+		left:  600px;
+		background-color: red;
+		opacity: 0.1;
+		width: 163px;
+		height: 211px;
+	}
+}
+.story20{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__tree {
+		position: absolute;
+		height: 90vh;
+		right: 0;
+	}
+	&__sheepBunnny {
+		position: absolute;
+		bottom: 0;
+		padding-bottom: 40px;
+		padding-left: 80px;
+		height: 393px;
+	}
+	&__jar{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding-right: 80px;
+		padding-bottom: 50px;
+		width: 145px;
+		height: 244px;
+	}
+	&__text {
+		position: absolute;
+		top: 25%; 
+		left: 0;
+		margin-top: -100px;
+		padding: 0 80px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-brown;
+		width: 300px;
+	}
+	&__text2 {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		padding-right: 50px;
+		padding-bottom: 300px;
+		font-size: 24px;
+		text-align: center;
+		color: $color-brown;
+		width: 200px;
+	}
+}
