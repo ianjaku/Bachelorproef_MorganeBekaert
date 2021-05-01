@@ -8,8 +8,8 @@
 		position: absolute;
 		display: flex;
 		flex-direction: column;
-		top: 3%;
-		margin-left: 260px;
+		top: 4vh;
+		margin-left: 18vw;
 		align-items: center;
 		h1 {
 			font-size: 24px;
@@ -18,8 +18,8 @@
 		&-turn {
 			width: 278px;
 			height: 188px;
-			padding-top: 35px;
-			padding-left: 90px;
+			padding-top: 10vh;
+			padding-left: 10vw;
 		}
 	}
 	&__tree {
@@ -30,9 +30,8 @@
 	}
 	&__arrow {
 		position: absolute;
-		top: 50%; 
+		top: 50vh; 
 		right: 0;
-		margin-top: -40px;
 		padding: 0 130px;
 		width: 272px;
 		height: 128px;
@@ -44,7 +43,9 @@
 	height: 100vh;
 	h1 {
 		position: absolute;
-		padding: 40px 60px;
+		margin: 0;
+		top: 20vh;
+		left: 7vw;
 		font-size: 28px;
 		color: $color-brown;
 	}
@@ -69,14 +70,13 @@
 	}
 	&__wrapper {
 		position: absolute;
-		top: 50%; 
-		right: 0;
-		margin-top: -100px;
-		padding: 0 60px;
+		top: 40vh; 
+		right: 6vw;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		h2 {
+			margin: 0;
 			font-size: 24px;
 			color: $color-brown;
 		}
@@ -170,8 +170,8 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		top: 0;
-		padding: 0 100px;
+		top: 1vh;
+		left: 5vw;
 		width: 240px;
 		height: 366px;
 	}
@@ -183,9 +183,8 @@
 	}
 	&__text {
 		position: absolute;
-		top: 50%; 
+		top: 54vh; 
 		right: 0;
-		margin-top: -100px;
 		padding: 0 60px;
 		font-size: 24px;
 		text-align: center;
@@ -230,14 +229,14 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		top: 0;
-		left: 13%;
+		top: 3vh;
+		left: 5vw;
 		width: 240px;
 		height: 366px;
 	}
 	&__wrapper {
 		position: absolute;
-		top: 40%; 
+		top: 60vh; 
 		right: 0;
 		padding: 0 60px;
 		display: flex;
@@ -250,15 +249,14 @@
 	}
 	&__blanket{
 		position: absolute;
-		top: 0;
-		top: 17%;
-		left: 13%;
+		top: 20vh;
+		left: 4vw;
 		width: 267px;
 		height: 139px;
 	}
 	&__arrow {
 		position: absolute;
-		top: 60%; 
+		top: 77vh; 
 		right: 0;
 		padding-right: 150px;
 		width: 272px;
@@ -292,7 +290,7 @@
 	&__doctor {
 		position: absolute;
 		top: 0;
-		left: 190px;
+		left: 14vw;
 		width: 240px;
 		height: 366px;
 	}
@@ -300,7 +298,7 @@
 		position: absolute;
 		bottom: 0;
 		padding-bottom: 60px;
-		left: 35%;
+		left: 35vw;
 		width: 240px;
 		height: 366px;
 		transform: scale(-1,1);		
@@ -375,13 +373,15 @@
 	}
 	&__saw{
 		position: absolute;
-		padding: 130px 185px;
+		left: 13vw;
+		top: 11vh;
 		width: 103px;
 		height: 89px;
 	}
 	&__doctor {
 		position: absolute;
-		padding: 60px 260px;
+		left: 18vw;
+		top: 5vh;
 		width: 240px;
 		height: 366px;
 	}
@@ -395,9 +395,8 @@
 	}
 	&__text {
 		position: absolute;
-		top: 50%; 
+		top: 45vh; 
 		right: 0;
-		margin-top: -100px;
 		padding: 0 60px;
 		display: flex;
 		flex-direction: column;
@@ -409,7 +408,7 @@
 	&__sickBranch {
 		position: absolute;
 		top: 0;
-		padding-left: 85px;
+		left: 5vw;
 		width: 320px;
 		height: 260px;
 	}
@@ -440,64 +439,61 @@
 	}
 	&__medicin {
 		position: absolute;
-		padding-top: 290px;
-		padding-left: 20px;
-		width: 329px;
-		height: 306px;
+		top: 29vh;
+		left: 2vw;
+		width: 22vw;
+		height: 30vh;
 	}
 	&__plaster {
 		position: absolute;
-		width: 160px;
-		height: 140px;
-		padding-left: 20px;
+		width: 13vw;
+		height: 14vh;
+		left: 2vw;
 	}
 	&__doctor {
 		position: absolute;
-		padding-top: 170px;
-		padding-left: 300px;
+		top: 17vh;
+		left: 22vw;
 		width: 240px;
 		height: 366px;
 	}
 	&__sickBranch {
 		position: absolute;
 		bottom: 0;
-		padding-left: 360px;
-		padding-bottom: 100px;
+		left: 31vw;
+		bottom: 10vh;
 		width: 337px;
 		height: 246px;
 	}
 	&__kit {
 		position: absolute;
 		bottom: 0;
-		bottom: 10px;
-		right: 40px;
+		bottom: 4vh;
+		right: 4vw;
 		width: 372px;
 		height: 390px;
 	}
 	&__saw{
 		position: absolute;
-		// padding: 140px 220px;
-		bottom: 0;
-		padding-left: 380px;
-		padding-bottom: 100px;
+		left: 31vw;
+		bottom: 10vh;
 		width: 103px;
 		height: 89px;
 	}
 	&__text {
 		position: absolute;
-		top: 20%; 
-		right: 0;
-		margin-top: -100px;
-		padding: 0 60px;
+		margin: 0;
+		top: 8vh; 
+		right: 4vw;
 		font-size: 22px;
 		text-align: center;
 		color: $color-brown;
-		width: 400px;
+		width: 30vw;
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		left: 50%; 
+		bottom: 3vh;
+		left: 50vw; 
 		width: 280px;
 		height: 299px;
 		transform: scale(-1,1);		
@@ -535,40 +531,38 @@
 	}
 	&__medicin {
 		position: absolute;
-		padding-top: 290px;
-		padding-left: 20px;
-		width: 329px;
-		height: 306px;
+		top: 29vh;
+		left: 2vw;
+		width: 22vw;
+		height: 30vh;
 	}
 	&__plaster {
 		position: absolute;
-		width: 160px;
-		height: 140px;
-		padding-left: 20px;
+		width: 13vw;
+		height: 14vh;
+		left: 2vw;
 	}
 	&__sickBranch {
 		position: absolute;
 		bottom: 0;
-		padding-left: 450px;
-		// width: 344px;
-		// height: 307px;
+		left: 31vw;
+		bottom: 10vh;
+		width: 337px;
+		height: 246px;
 	}
 	&__stone{
 		position: absolute;
 		width: 41px;
 		height: 35px;
-		bottom: 0;
-		padding-bottom: 250px;
-		right: 25%;
+		bottom: 25vh;
+		right: 25vw;
 		
 
 	}
 	&__jar{
 		position: absolute;
-		bottom: 0;
-		right: 0;
-		padding-right: 300px;
-		padding-bottom: 100px;
+		bottom: 8vh;
+		right: 23vw;
 		width: 128px;
 		height: 166px;
 	}
@@ -582,40 +576,36 @@
 	
 	&__text {
 		position: absolute;
-		top: 40%; 
+		margin: 0;
+		top: 30vh; 
 		right: 0;
-		margin-top: -100px;
-		padding: 0 60px;
+		right: 6vw;
 		font-size: 22px;
 		text-align: center;
 		color: $color-brown;
-		width: 400px;
+		width: 30vw;	
 	}
 	&__text2 {
 		position: absolute;
-		// top: 50%; 
-		left: 0;
-		bottom: 0;
-		margin-left: 140px;
-		// margin-top: -100px;
-		padding: 0 60px;
+		margin: 0;
+		left: 15vw;
+		bottom: 3vh;
 		font-size: 22px;
 		text-align: center;
 		color: $color-brown;
-		width: 400px;
+		width: 30vw;
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		padding-bottom: 60px;
-		left: 43%;
+		bottom: 13vh;
+		left: 44vw;
 		width: 240px;
 		height: 366px;
 	}
 	#dropzone8 {
 		position: absolute;
-		bottom: 7%;
-		left: 43%;
+		bottom: 13vh;
+		left: 44vw;
 		background-color: red;
 		opacity: 0.1;
 		width: 200px;
@@ -646,41 +636,42 @@
 	}
 	&__medicin {
 		position: absolute;
-		padding-top: 290px;
-		padding-left: 20px;
-		width: 329px;
-		height: 306px;
+		top: 29vh;
+		left: 2vw;
+		width: 22vw;
+		height: 30vh;
 	}
 	&__plaster {
 		position: absolute;
-		width: 160px;
-		height: 140px;
-		padding-left: 20px;
+		width: 13vw;
+		height: 14vh;
+		left: 2vw;
 	}	
 	&__sickBranch {
 		position: absolute;
 		bottom: 0;
-		padding-left: 450px;
+		left: 31vw;
+		bottom: 10vh;
+		width: 337px;
+		height: 246px;
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		padding-bottom: 60px;
+		bottom: 10vh;
 		right: 0;
 		width: 40px;
 		height: 326px;
 	}
 	&__text {
 		position: absolute;
-		top: 40%; 
-		right: 0;
-		margin-top: -100px;
-		padding: 0 60px;
+		margin: 0;
+		top: 48vh; 
+		right: 6vw;
 		font-size: 22px;
 		text-align: center;
 		color: $color-brown;
-		width: 400px;
-	}
+		width: 25vw;	
+}
 }
 .story10{
 	position: relative;
@@ -693,45 +684,40 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		right: 0;
-		padding-bottom: 30px;
-		padding-right: 230px;
+		bottom: 5vh;
+		right: 19vw;
 		height: 366px;
 	}
 	&__owl {
 		position: absolute;
-		left: 0;
-		padding: 150px 45px;
+		top: 16vh;
+		left: 6vw;
 		width: 225px;
 		height: 361px;
 	}
 	&__text {
 		position: absolute;
-		top: 15%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 120px;
+		margin: 0;
+		top: 4vh; 
+		left: 11vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-brown;
-		width: 500px;
+		width: 35vw;
 	}
 	&__text2 {
 		position: absolute;
-		top: 60%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 120px;
+		top: 50vh; 
+		left: 11vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-brown;
-		width: 700px;
+		width: 50vw;
 	}
 	&__arrow {
 		position: absolute;
-		bottom: 10%; 
-		padding-left: 150px;
+		bottom: 8vh; 
+		left: 15vw;
 		width: 272px;
 		height: 128px;
 		}
@@ -747,22 +733,19 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		padding-bottom: 30px;
-		padding-left: 200px;
+		bottom: 8vh;
+		left: 15vw;
 		height: 366px;
 	}	
 	&__text {
 		position: absolute;
-		top: 20%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 90px;
+		margin: 0;
+		top: 12vh; 
+		left: 6vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 500px;
+		width: 35vw;
 	}
 }
 .story12{
@@ -776,9 +759,8 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		right: 0;
-		padding-right: 550px;
-		padding-top: 160px;
+		right: 40vw;
+		top: 15vh;
 		height: 263px;
 		width: 209px;
 	}
@@ -790,25 +772,22 @@
 	}
 	&__text {
 		position: absolute;
-		top: 20%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 90px;
+		margin: 0;
+		top: 11vh; 
+		left: 5vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 500px;
+		width: 35vw;
 	}
 	&__text2 {
 		position: absolute;
-		top: 40%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 70px;
+		top: 30vh; 
+		left: 5vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 420px;
+		width: 30vw;
 	}
 }
 .story13{
@@ -824,8 +803,8 @@
 		position: absolute;	
 		width: 164px;
 		height: 106px;
-		padding-top: 350px;
-		padding-left: 480px;
+		bottom: 12vh;
+		left: 50vw;
 	}
 	&__sheep{
 		position: absolute;
@@ -835,28 +814,24 @@
 	}
 	&__text {
 		position: absolute;
-		top: 20%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 90px;
+		margin: 0;
+		top: 13vh; 
+		left: 6vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 400px;
+		width: 30vw;
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		padding-bottom: 30px;
-		padding-left: 90px;
+		bottom: 8vh;
+		left: 10vw;
 		height: 317px;
-		width: 205;
 	}
 	#dropzone13 {
 		position: absolute;
-		bottom: 3%;
-		left: 7%;
+		bottom: 8vh;
+		left: 10vw;
 		background-color: red;
 		opacity: 0.1;
 		width: 180px;
@@ -869,44 +844,41 @@
 	height: 100vh;
 	&__bigStone {
 		position: absolute;
-		bottom: 0;
+		bottom: 30vh;
 		right: 0;
-		padding-bottom: 290px;
 		width: 722px;
 		height: 396px;
 	}
 	&__snuitertje {
 		position: absolute;
-		right: 0;
-		padding-top: 20px;
-		padding-right: 170px;
+		top: 2vh;
+		right: 15vw;
 		height: 336px;
 	}
 	&__snuitertje2 {
 		position: absolute;
 		bottom: 0;
-		right: 0;
-		padding-left: 170px;
+		right: 15vw;
 		height: 336px;
 		transform: rotate(180deg);  //nog aanpassen op ipad
 		opacity: 50%;
 	}
 	&__stone{
 		position: absolute;
-		padding: 150px 200px;
+		top: 13vh;
+		left: 15vw;
 		width: 646px;
 		height: 514px;
 	}
 	&__text {
 		position: absolute;
-		top: 15%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 120px;
+		margin: 0;
+		top: 10vh; 
+		left: 10vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-brown;
-		width: 500px;
+		width: 35vw;
 	}
 }
 .story15{
@@ -936,19 +908,19 @@
 	&__doctor {
 		position: absolute;
 		right: 0;
-		top: 30%;
+		top: 30vh;
 		width: 100px;
 		height: 149px;
 	}
 	&__text {
 		position: absolute;
+		margin: 0;
 		bottom: 10vh; 
 		right: 6vw;
-		margin: 0;
 		font-size: 24px;
 		text-align: center;
 		color: $color-brown;
-		width: 500px;
+		width: 35vw;
 	}
 }
 .story16{
@@ -962,16 +934,14 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		left: 0;
-		padding-bottom: 30px;
-		padding-left: 230px;
+		bottom: 7vh;
+		left: 20vw;
 		height: 366px;
 	}
 	&__magnifyingGlass{
 		position: absolute;
-		right: 0;
-		padding: 140px 110px;
+		right: 8vw;
+		top: 13vh;
 		width: 215px;
 		height: 210px;
 	}
@@ -980,17 +950,17 @@
 		width: 201px;
 		height: 261px;
 		padding-right: 900px;
-		padding-top: 210px;	}
+		padding-top: 210px;	
+	}
 	&__text {
 		position: absolute;
-		top: 35%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 120px;
+		margin: 0;
+		top: 25vh; 
+		left: 10vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 500px;
+		width: 35vw;
 	}
 }
 .story17{
@@ -1027,14 +997,13 @@
 	}
 	&__text {
 		position: absolute;
-		top: 35%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 120px;
+		margin: 0;
+		top: 25vh; 
+		left: 8vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 500px;
+		width: 35vw;
 	}
 }
 .story18{
@@ -1048,32 +1017,27 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		right: 0;
-		padding-bottom: 30px;
-		padding-right: 230px;
+		bottom: 8vh;
+		right: 4vw;
 		height: 366px;
 		transform: scale(-1,1);		
 	}
 	&__jar{
 		position: absolute;
-		bottom: 0;
-		right: 0;
-		padding-right: 300px;
-		padding-bottom: 100px;
+		bottom: 10vh;
+		right: 10vw;
 		width: 128px;
 		height: 166px;
 	}
 	&__text {
 		position: absolute;
-		top: 25%; 
-		right: 0;
-		margin-top: -100px;
-		padding: 0 80px;
+		margin: 0;
+		top: 15vh; 
+		right: 7vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 300px;
+		width: 25vw;
 	}
 }
 .story19{
@@ -1087,59 +1051,49 @@
 	}
 	&__snuitertje {
 		position: absolute;
-		bottom: 0;
-		padding-bottom: 100px;
-		padding-left: 260px;
+		bottom: 8vh;
+		left: 17vw;
 		height: 366px;
 	}
 	&__jar{
 		position: absolute;
-		bottom: 0;
-		padding-left: 600px;
-		padding-bottom: 100px;
+		left: 43vw;
+		bottom: 10vh;
 		width: 163px;
 		height: 211px;
 	}
 	&__acornsRight {
 		position: absolute;
-		bottom: 0;
-		right: 0;
-		padding-right: 330px;
-		padding-bottom: 80px;
-		// width: 220px;
+		bottom: 11vh;
+		right: 30vh;
 		height: 177px;
 	}
 	&__acornsLeft {
 		position: absolute;
-		bottom: 0;
-		padding-left: 370px;
-		padding-bottom: 20px;
-		// width: 220px;
+		bottom: 3vh;
+		left: 27vw;
 		height: 177px;
 	}
 	&__text {
 		position: absolute;
-		top: 25%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 80px;
+		margin: 0;
+		top: 20vh; 
+		left: 8vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-darkBrown;
-		width: 300px;
+		width: 25vw;
 	}
 	&__acorn {
 		position: absolute;
-		bottom: 0;
+		bottom: 30vh;
+		right: 17vw;
 		height: 71px;
-		right: 0;
-		padding-right: 230px;
-		padding-bottom: 330px;
 	}
 	#dropzone19 {
 		position: absolute;
-		bottom: 100px;
-		left:  600px;
+		left: 43vw;
+		bottom: 10vh;
 		background-color: red;
 		opacity: 0.1;
 		width: 163px;
@@ -1163,40 +1117,34 @@
 	}
 	&__sheepBunnny {
 		position: absolute;
-		bottom: 0;
-		padding-bottom: 40px;
-		padding-left: 80px;
+		bottom: 5vh;
+		left: 10vw;
 		height: 393px;
 	}
 	&__jar{
 		position: absolute;
-		bottom: 0;
-		right: 0;
-		padding-right: 80px;
-		padding-bottom: 50px;
+		bottom: 7vh;
+		right: 6vw;
 		width: 145px;
 		height: 244px;
 	}
 	&__text {
 		position: absolute;
-		top: 25%; 
-		left: 0;
-		margin-top: -100px;
-		padding: 0 80px;
+		margin: 0;
+		top: 15vh; 
+		left: 4vw;
 		font-size: 24px;
 		text-align: center;
 		color: $color-brown;
-		width: 300px;
+		width: 25vw;
 	}
 	&__text2 {
 		position: absolute;
-		right: 0;
-		bottom: 0;
-		padding-right: 50px;
-		padding-bottom: 300px;
+		right: 4vw;
+		bottom: 30vh;
 		font-size: 24px;
 		text-align: center;
 		color: $color-brown;
-		width: 200px;
+		width: 20vw;
 	}
 }
