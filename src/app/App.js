@@ -12,7 +12,7 @@ function App() {
   
   return (
     <div className="App">
-      <Router basename=''>
+      <Router basename='/'>
         <Switch>
           <RouteWithLayout exact path={Routes.STORY_00} component={Pages.Story_00} layout={Layouts.StoryLightLayout} />
           <RouteWithLayout exact path={Routes.STORY_01} component={Pages.Story_01} layout={Layouts.StoryLightLayout} />
