@@ -10,7 +10,7 @@ const Story02 = () => {
 
 	const [ score, setScore ] = useState(0);
 
-	if ( score === 8 ) {
+	if ( score === 10 ) {
 		history.push('/story/3');
 	}
 

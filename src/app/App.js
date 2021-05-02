@@ -12,8 +12,8 @@ function App() {
   
   return (
     <div className="App">
-      <Router basename='/'>
-        <Switch>
+      <Router basename="/">
+        <Switch >
           <RouteWithLayout exact path={Routes.STORY_00} component={Pages.Story_00} layout={Layouts.StoryLightLayout} />
           <RouteWithLayout exact path={Routes.STORY_01} component={Pages.Story_01} layout={Layouts.StoryLightLayout} />
           <RouteWithLayout exact path={Routes.STORY_02} component={Pages.Story_02} layout={Layouts.StoryLightLayout} />
@@ -37,8 +37,7 @@ function App() {
           <RouteWithLayout exact path={Routes.STORY_20} component={Pages.Story_20} layout={Layouts.StoryLightLayout} />
           
           <RouteWithLayout exact path={Routes.MENU} component={Pages.Menu} layout={Layouts.StoryLightLayout} />
-          <RouteWithLayout exact path={Routes.LOGIN} component={Pages.Login} layout={Layouts.StoryLightLayout} />
-          <RouteWithLayout exact path={Routes.REGISTER} component={Pages.Register} layout={Layouts.StoryLightLayout} />
+          <RouteWithLayout exact path={Routes.THOUGHTS} component={Pages.Thoughts} layout={Layouts.StoryLightLayout} />
         </Switch>
       </Router>
     </div>

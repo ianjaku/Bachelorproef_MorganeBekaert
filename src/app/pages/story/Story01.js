@@ -12,9 +12,9 @@ const Story01 = () => {
 		<div className="story01">
 			<Header/>
 			<h1>Snuiter speelt vaak in het bos, zijn beste vriend daar is Grote Boom.</h1>
-			<img className="story01__sun" src={Assets.Sun}></img>
-			<img className="story01__bird" src={Assets.Bird}></img>
-			<img className="story01__tree" src={Assets.TreeStart}></img>
+			<img className="story01__sun" src={Assets.Sun} alt="sun"></img>
+			<img className="story01__bird" src={Assets.Bird} alt="bird"></img>
+			<img className="story01__tree" src={Assets.TreeStart} alt="tree"></img>
 			<div className="story01__wrapper" onClick={ () => history.push('/story/2') }>
 				<h2>Gaan jullie mee met Snuiter in het bos?</h2>
 				<img className="story01__wrapper-arrow" src={Assets.ArrowNext}></img>
@@ -28,3 +28,4 @@ const Story01 = () => {
 }
 
 export default Story01;
+

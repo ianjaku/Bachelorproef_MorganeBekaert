@@ -1,5 +1,5 @@
 
-export const STORY_00 = '/'
+export const STORY_00 = '/story/0'
 export const STORY_01 = '/story/1'
 export const STORY_02 = '/story/2'
 export const STORY_03 = '/story/3'
@@ -21,9 +21,8 @@ export const STORY_18 = '/story/18'
 export const STORY_19 = '/story/19'
 export const STORY_20 = '/story/20'
 
-export const MENU = '/menu'
-export const LOGIN = '/login'
-export const REGISTER = '/register'
+export const MENU = '/'
+export const THOUGHTS = '/thoughts'
 
 
 

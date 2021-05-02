@@ -1,7 +1,7 @@
 import { default as React, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import * as Images from '../../assets';
-import { Progression } from '../../components';
+import { Progression, Button } from '../../components';
 
 import './menu.scss';
 
@@ -14,9 +14,10 @@ const Menu = () => {
 			<img className="menu__tree" src={Images.TreeStart}></img>
 		
 			<div className="menu__wrapper">
-				<h1 onClick={() => history.push('/story/1')}>Het verhaal van Snuitertje</h1>
-				<h1 onClick={() => history.push('/thoughts')}>Mijn gedachten</h1>
+				<Button text="VERHAAL" path="/story/0" />
+ 				<Button text="MIJN GEDACHTEN" path="/thoughts" />
 			</div>
+
 
 
 		</div>

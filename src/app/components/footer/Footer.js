@@ -6,18 +6,6 @@ import './footer.scss';
 
 const Footer = ({audio}) => {
 	const history = useHistory();
-
-  	// localstorage | WIP
-	  const CurrentUser = {
-		storyNumber: parseInt(window.location.pathname.split('/')[2]),
-		firstname: undefined,
-		lastname: undefined
-	};
-	localStorage.setItem('current-user', JSON.stringify(CurrentUser));
-
-	if ( JSON.parse(localStorage.getItem('current-user')).storyNumber != parseInt(window.location.pathname.split('/')[2]) ) {
-		history.push('/story/' + JSON.parse(localStorage.getItem('current-user')).storyNumber );
-	}
 	
 	// AudioPlayer
 	const [ isPlaying, setIsPlaying ] = useState(true);

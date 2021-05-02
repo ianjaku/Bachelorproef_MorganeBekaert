@@ -23,8 +23,7 @@ import { default as Story_20 } from './story/Story20'
 
 //Other
 import { default as Menu } from './other/Menu'
-import { default as Login } from './other/Login'
-import { default as Register } from './other/Register'
+import { default as Thoughts } from './other/Thoughts'
 
 export {
 	//Story
@@ -52,6 +51,5 @@ export {
 
 	//Other
 	Menu,
-	Login,
-	Register,
+	Thoughts,
 }
