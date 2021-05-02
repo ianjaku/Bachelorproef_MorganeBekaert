@@ -25,8 +25,6 @@ const Story20 = () => {
 			</p>
 			<p className="story20__text2">
 			En in de pot groeit ondertussen een Kleine Boom…
-			{/* En in de pot groeit ondertussen Kleine Boom… */}
-
 			</p>
 
 			<Footer audio={Assets.mp3_story20} />

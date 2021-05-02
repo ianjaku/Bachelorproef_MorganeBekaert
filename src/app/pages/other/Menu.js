@@ -1,7 +1,7 @@
-import { default as React, useState } from 'react';
+import { default as React } from 'react';
 import { useHistory } from 'react-router-dom';
 import * as Images from '../../assets';
-import { Progression, Button } from '../../components';
+import { Button } from '../../components';
 
 import './menu.scss';
 

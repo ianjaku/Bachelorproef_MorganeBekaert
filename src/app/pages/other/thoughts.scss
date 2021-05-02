@@ -9,21 +9,29 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		// background-image: url(/./assets/thoughts/unamed.png);
 		&-element{
-			border: solid 2px $color-brown;
-			width: 25%;
-			color: $color-brown;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-overflow: ellipsis;
+			width: 200px;
+			height: 200px;
 			padding-top: 30px;
 			padding-bottom: 30px;
-			text-align: center;
+			background: url('../../assets/thoughts/balloon.png') no-repeat;
+			background-position: center;
+			background-size: contain;
+			color: $color-brown;
 		}
 	}
 	&__form{
-		margin-left: 400px;
-		margin-top: 550px;
 		position: fixed;
-
+		left: 50%;
+		margin-left: -250px;
+		bottom: 8%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		&-input{
 			width: 40vw;
 			height: 10vh;
@@ -33,9 +41,6 @@
 		}	
 
 		&-safe{
-			// position: relative;
-			height: 120px;
-		 	width: 428px;
 			padding-top: 20px;
 				&-text {
 					width: 100%;
@@ -49,7 +54,7 @@
 				}
 
 				&__img {
-					// position: absolute;
+					position: absolute;
 				}
 		}
 	}			

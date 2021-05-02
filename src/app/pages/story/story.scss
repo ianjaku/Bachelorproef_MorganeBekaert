@@ -333,8 +333,6 @@
 		position: absolute;
 		top: 60px;
 		left: 100px;
-		background-color: red;
-		opacity: 0.1;
 		width: 400px;
 		height: 250px;
 	}
@@ -416,8 +414,6 @@
 		position: absolute;
 		bottom: 110px;
 		left: 230px;
-		background-color: red;
-		opacity: 0.1;
 		width: 400px;
 		height: 210px;
 	}
@@ -501,8 +497,6 @@
 	#dropzone7 {
 		position: absolute;
 		bottom: 0;
-		background-color: red;
-		opacity: 0.1;
 		width: 280px;
 		height: 310px;
 	}	
@@ -606,8 +600,6 @@
 		position: absolute;
 		bottom: 13vh;
 		left: 44vw;
-		background-color: red;
-		opacity: 0.1;
 		width: 200px;
 		height: 350px;
 	}	
@@ -832,8 +824,6 @@
 		position: absolute;
 		bottom: 8vh;
 		left: 10vw;
-		background-color: red;
-		opacity: 0.1;
 		width: 180px;
 		height: 270px;
 	}	
@@ -860,7 +850,7 @@
 		bottom: 0;
 		right: 15vw;
 		height: 336px;
-		transform: rotate(180deg);  //nog aanpassen op ipad
+		transform: rotate(180deg);
 		opacity: 50%;
 	}
 	&__stone{
@@ -1094,8 +1084,6 @@
 		position: absolute;
 		left: 43vw;
 		bottom: 10vh;
-		background-color: red;
-		opacity: 0.1;
 		width: 163px;
 		height: 211px;
 	}

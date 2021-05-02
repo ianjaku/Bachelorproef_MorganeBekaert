@@ -7,9 +7,7 @@ import './thoughts.scss';
 
 const Thoughts = () => {
 	const history = useHistory();
-	const [thoughts, setThoughts] = useState(localStorage.getItem('myData') ?  localStorage.getItem('myData').split(',') : []);
-
-console.log(localStorage.getItem('myData').split(','));
+	const [thoughts, setThoughts] = useState(localStorage.getItem('myData') ?  localStorage.getItem('myData').split(',') : [])
 
 	const submit = () => {
 		const thought = document.getElementById('thought').value;
@@ -43,7 +41,7 @@ console.log(localStorage.getItem('myData').split(','));
 			</div>
 
 			<div className="thoughts__form">
-				<input className="thoughts__form-input" placeholder="type here" name="thought" id='thought'></input>
+				<input required className="thoughts__form-input" placeholder="type here" name="thought" id='thought'></input>
 
 				<div className="thoughts__form-safe" onClick={ () => submit() }>
 					<h1 className="thoughts__form-safe-text">Gedachten opslaan</h1>
@@ -58,5 +56,4 @@ console.log(localStorage.getItem('myData').split(','));
 }
 
 export default Thoughts;
-
 

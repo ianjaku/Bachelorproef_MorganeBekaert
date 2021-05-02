@@ -25,7 +25,6 @@ const Story10 = () => {
 
 			<p className="story10__text2">
 			‘Ik begrijp dat je boos bent. Maar andere bomen pijn doen mag niet hoor!’ zegt Oehoe.  
-			{/* // mag niet, hoor ??? */}
 			<br></br><br></br>
 			Oehoe is erg slim. 
 			Hij weet veel over bomen en ook over houtwormpjes.
