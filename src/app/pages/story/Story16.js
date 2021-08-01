@@ -6,27 +6,34 @@ import { Header, Footer } from '../../components';
 import './story.scss';
 
 const Story16 = () => {
-	const history = useHistory();
+
+	const styleSheet = document.styleSheets[0];
+	const keyframes = 
+	`@-webkit-keyframes doctor {
+        0% {-webkit-transform: translateX(0); } 
+        100% {-webkit-transform: translateX(-45vw) translateY(180px); }
+    }`;
+	styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
+
 
 	return (
 		<div className="story16">
 			<Header/>
-			<img className="story16__tree" src={Assets.SickTree2}></img>
-			<img className="story16__snuitertje" src={Assets.SnuitertjeStand}></img>
-			<img className="story16__magnifyingGlass" src={Assets.MagnifyingGlass} onClick={ () => history.push('/story/17') }></img>
-			<img className="story16__doctor" src={Assets.DoctorTree}></img>
+			<img alt="Zon" className="story08__sun" src={Assets.Sun}></img>
+			<img alt="Zieke Grote Boom met sjaal" className="story16__tree" src={Assets.SickTreeSharp}></img>
+			<img alt="Snuitertje" className="story16__snuitertje" src={Assets.SnuitertjeBlanket}></img>
+			<img alt="Dokter" className="story16__doctor" src={Assets.DoctorStand} style={{animation: 'doctor ease-in 20s forwards'}}></img>
 			
 			<p className="story16__text">
-			Nu is het tijd voor een nieuwe behandeling.
-			De dokter tekent lijnen op de schors. 
-			Dan zet hij een soort vergrootglas op Grote Boom.
-			‘Misschien zitten er nog eitjes van de houtwormpjes onder de schors.
-			Die kan ik dan wegstralen met deze lens.’
-
-			Snuiter kijkt nieuwsgierig naar het vergrootglas. 
-			<strong> Klik op het vergrootglas</strong> om te zien wat er gebeurt.
+			Maar dan komt de dokter alweer. Met nieuwe medicijnen.
+			En Grote Boom wordt weer heel moe en slap. Er zitten nog altijd veel steentjes in de pot.
+			‘Kan ik iets doen voor Grote Boom?’ vraagt Snuiter aan de dokter.
+			‘Niet zoveel. Speel maar gewoon stilletjes in de buurt. 
+			Zo voelt Grote Boom zich minder alleen.’
+			Grote Boom is erg moe. Snuiter legt een dekentje over de wortels.
 			</p>
-			
+
+
 			<Footer audio={Assets.mp3_story16} />
 
 		</div>

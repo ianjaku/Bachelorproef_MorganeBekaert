@@ -11,22 +11,24 @@ const Story17 = () => {
 	return (
 		<div className="story17">
 			<Header/>
-			<img className="story17__tree" src={Assets.SickTree2}></img>
-			<img className="story17__snuitertje" src={Assets.SnuitertjeStand}></img>
-			<img className="story17__magnifyingGlass" src={Assets.MagnifyingGlassLight}></img>
-			<img className="story17__doctor" src={Assets.DoctorTree}></img>
+			<img alt="Zieke Grote Boom" className="story17__tree" src={Assets.SickTree2}></img>
+			<img alt="Snuitertje" className="story17__snuitertje" src={Assets.SnuitertjeStand}></img>
+			<img alt="Vergrootglas" className="story17__magnifyingGlass" src={Assets.MagnifyingGlass} onClick={ () => history.push('/story/18') }></img>
+			<img alt="Dokter" className="story17__doctor" src={Assets.DoctorTree}></img>
 			
 			<p className="story17__text">
-			De stralen schijnen op Grote Boom zijn schors.
-			Het duurt maar heel even. Dan is de dokter weer weg. 
-			De volgende dag doet de dokter precies hetzelfde. 
-			En de dag daarna opnieuw. En opnieuw…
-			De zonnestralen maken de schors van Grote Boom helemaal zwart.
-			‘Dat is normaal!’ zegt de dokter. 
-			</p>
+			Nu is het tijd voor een nieuwe behandeling.
+			De dokter tekent lijnen op de schors. 
+			Dan zet hij een soort vergrootglas op Grote Boom.
+			‘Misschien zitten er nog eitjes van de houtwormpjes onder de schors.
+			Die kan ik dan wegstralen met deze lens.’
 
-			<Footer audio={Assets.mp3_story17} />
+			Snuiter kijkt nieuwsgierig naar het vergrootglas. 
+			<strong> Klik op het vergrootglas</strong> om te zien wat er gebeurt.
+			</p>
 			
+			<Footer audio={Assets.mp3_story17} />
+
 		</div>
 	)
 }

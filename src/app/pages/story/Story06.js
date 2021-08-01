@@ -9,44 +9,53 @@ import './story.scss';
 const Story06 = () => {
 	const history = useHistory();
 
-	const branchRef = useRef();
+	// 1. Make the ref for the image
+	const sawRef = useRef();
 
 	const onDrop = (e) => {
-		console.log('Released the drop component');
 		if (e.classList.contains("hovered")) {
 			history.push('/story/7');
 		}
 	};
 
 	const onDropAreaMouseHover = (e) => {
-		console.log('Released the drop component inside the dropzone');
 		e.classList.add('hovered');
 	}
 
 	return (
 		<div className="story06">
 			<Header/>
-			<img className="story06__sun" src={Assets.Sun}></img>
-			<img className="story06__bird" src={Assets.Bird}></img>
-			<img className="story06__tree" src={Assets.TreeWithoutSickBranch}></img>
-			<img className="story06__snuitertje" src={Assets.SnuitertjeStand}></img>
-			<img className="story06__saw" src={Assets.Saw}></img>
-			<img className="story06__doctor" src={Assets.DoctorTree}></img>
-			<img className="story06__kit" src={Assets.KitWithoutSaw}></img>
--			
-			<p className="story06__text">Trek nu aan de zieke tak om de dokter te helpen.
-				Sleep de tak naar Snuitertje, die nieuwsgierig staat te kijken naar de dokter.
+			<img alt="Zon" className="story06__sun" src={Assets.Sun}></img>
+			<img alt="Vogel" className="story06__bird" src={Assets.Bird}></img>
+			<img alt="Grote Boom" className="story06__tree" src={Assets.TreeSickBranch}></img>
+			<img alt="Dokter" className="story06__doctor" src={Assets.DoctorTree}></img>
+			<img alt="Snuitertje" className="story06__snuitertje" src={Assets.SnuitertjeStand}></img>
+			<img alt="Dokterstas" className="story06__kit" src={Assets.KitWithoutSaw}></img>
+
+			<p className="story06__text">
+			De volgende dag komt de dokter terug. 
+			Hij heeft een koffertje met operatiespullen bij zich.
+			'De tak met de houtwormpjes moet ik wegsnijden,' legt hij
+			Snuitertje uit.
+			'Als ik dit niet doe, zit Grote Boom binnenkort 
+			helemaal vol houtwormpjes die bomen kapot maken.'
+			<br></br><br></br>
+			Helpen jullie mee met de dokter?
+			<strong> Sleep de zaag naar de zieke tak </strong>
+			om de dokter te helpen met de operatie.
+
 			</p>
 
-			<Draggable onStop={() => onDrop(branchRef.current)} >
-				<img className="story06__sickBranch" src={Assets.SickBranch} ref={branchRef}></img>
+			{/* onDrop happens when the drag component gets released */}
+			<Draggable onStop={() => onDrop(sawRef.current)} >
+				<img alt="Zaag" className="story06__saw" src={Assets.Saw} ref={sawRef}></img>
 			</Draggable>
 
-			<div id="dropzone6" onMouseOver={() => onDropAreaMouseHover(branchRef.current)}></div>
-			
-			<Footer audio={Assets.mp3_story6} />
+			<div id="dropzone6" onMouseOver={() => onDropAreaMouseHover(sawRef.current)}></div>
 
+			<Footer audio={Assets.mp3_story6} />
 		</div>
+	
 	)
 }
 

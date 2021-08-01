@@ -11,22 +11,22 @@ const Story18 = () => {
 	return (
 		<div className="story18">
 			<Header/>
-			<img className="story18__tree" src={Assets.SickTree3}></img>
-			<img className="story18__snuitertje" src={Assets.SnuitertjeStand}></img>
-			<img className="story08__jar" src={Assets.JarProgress}></img>
-
+			<img alt="Zieke Grote Boom" className="story18__tree" src={Assets.SickTree2}></img>
+			<img alt="Snuitertje" className="story18__snuitertje" src={Assets.SnuitertjeStand}></img>
+			<img alt="Vergrootglas met licht" className="story18__magnifyingGlass" src={Assets.MagnifyingGlassLight}></img>
+			<img alt="Dokter" className="story18__doctor" src={Assets.DoctorTree}></img>
 			
 			<p className="story18__text">
-			En dan gooit Snuiter het laatste steentje in de rivier. De pot is leeg.
-			Maar Grote Boom ziet er nog steeds slap uit. Snuiter snapt het niet.
-			<br></br><br></br>
-			De dokter zegt: ‘De houtwormpjes zijn nu allemaal weg 
-			en ook de eitjes zijn door de zon helemaal weggestraald.
-			Nu kan Grote Boom stilletjesaan beter worden.’
+			De stralen schijnen op Grote Boom zijn schors.
+			Het duurt maar heel even. Dan is de dokter weer weg. 
+			De volgende dag doet de dokter precies hetzelfde. 
+			En de dag daarna opnieuw. En opnieuw…
+			De zonnestralen maken de schors van Grote Boom helemaal zwart.
+			‘Dat is normaal!’ zegt de dokter. 
 			</p>
-			
-			<Footer audio={Assets.mp3_story18} />
 
+			<Footer audio={Assets.mp3_story18} />
+			
 		</div>
 	)
 }

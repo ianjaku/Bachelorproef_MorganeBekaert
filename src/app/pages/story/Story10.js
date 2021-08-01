@@ -10,31 +10,27 @@ const Story10 = () => {
 
 	return (
 		<div className="story10">
-
-			<img className="story10__tree" src={Assets.OtherTree}></img>
-			<img className="story10__snuitertje" src={Assets.SnuitertjeAngry}></img>
-			<img className="story10__owl" src={Assets.Owl}></img>
 			<Header/>
+			<img alt="Zon" className="story10__sun" src={Assets.Sun}></img>
+			<img alt="Vogel" className="story10__bird" src={Assets.Bird}></img>
+			<img alt="Grote Boom" className="story10__tree" src={Assets.TreeWithoutSickBranch}></img>
+			<img alt="Medicijn" className="story10__medicin" src={Assets.Medicin}></img>
+			<img alt="Pleister" className="story10__plaster" src={Assets.Plaster}></img>
+			<img alt="Zieke tak" className="story10__sickBranch" src={Assets.SickBranch2}></img>
+			<img alt="Snuitertje" className="story10__snuitertje" src={Assets.SnuitertjeAngry2} onClick={ () => history.push('/story/11') }></img>
 			
-			<p className="story10__text">		 
-				Snuiter verveelt zich. Hij is boos. 
-				‘Waarom moet Grote Boom nu wormpjes krijgen?’ bromt hij. 
-				Hij geeft een schop tegen een andere boom. 
-				Oehoe de Uil heeft het gezien. 
-			</p>
-
-			<p className="story10__text2">
-			‘Ik begrijp dat je boos bent. Maar andere bomen pijn doen mag niet hoor!’ zegt Oehoe.  
+			<p className="story10__text">
+			Het medicijn maakt Grote Boom inderdaad heel erg ziek. 
+			Er komen veel vrienden op bezoek. 
+			Ze willen Grote Boom opvrolijken.
+			Ze spelen spelletjes rond Grote Boom 
+			en vertellen verhaaltjes. 
 			<br></br><br></br>
-			Oehoe is erg slim. 
-			Hij weet veel over bomen en ook over houtwormpjes.
-			Dus vraagt Snuiter aan Oehoe: ‘Waarom heeft Grote Boom houtwormpjes?’ 
-			‘Dat is een heel moeilijke vraag…’ zucht Oehoe.
-			‘Het is niemands schuld! 
-			De ene boom heeft houtwormpjes, de andere niet. Zo is het leven!’
+			Zien jullie waar Snuiter verstopt zit?
+			<br></br><br></br>
+			Klik op Snuiter om te zien 
+			wat hij aan het doen is.
 			</p>
-
-			<img className="story10__arrow" src={Assets.ArrowNext} onClick={ () => history.push('/story/11') }></img>
 
 			<Footer audio={Assets.mp3_story10} />
 

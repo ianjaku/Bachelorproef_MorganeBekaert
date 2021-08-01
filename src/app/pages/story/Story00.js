@@ -13,12 +13,12 @@ const Story00 = () => {
 			<Header/>
 			<div className="story00__wrapper">
 				<h1>Draai je Ipad om, zo zal je het verhaal van Snuitertje beter kunnen lezen! </h1>
-				<img className="story00__wrapper-turn" src={Assets.TurnScreen}></img>
+				<img alt="draai scherm" className="story00__wrapper-turn" src={Assets.TurnScreen}></img>
 
 			</div>
-			<img className="story00__tree" src={Assets.TreeStart}></img>
+			<img alt="Grote Boom" className="story00__tree" src={Assets.TreeStart}></img>
 			
-			<img className="story00__arrow" src={Assets.ArrowNext} onClick={ () => history.push('/story/1') }></img>
+			<img alt="Ga verder" className="story00__arrow" src={Assets.ArrowNext} onClick={ () => history.push('/story/1') }></img>
 
 		</div>
 	)

@@ -20,6 +20,7 @@ export const STORY_17 = '/story/17'
 export const STORY_18 = '/story/18'
 export const STORY_19 = '/story/19'
 export const STORY_20 = '/story/20'
+export const STORY_21 = '/story/21'
 
 export const MENU = '/'
 export const THOUGHTS = '/thoughts'

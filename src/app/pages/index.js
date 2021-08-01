@@ -20,6 +20,7 @@ import { default as Story_17 } from './story/Story17'
 import { default as Story_18 } from './story/Story18'
 import { default as Story_19 } from './story/Story19'
 import { default as Story_20 } from './story/Story20'
+import { default as Story_21 } from './story/Story21'
 
 //Other
 import { default as Menu } from './other/Menu'
@@ -48,6 +49,7 @@ export {
 	Story_18,
 	Story_19,
 	Story_20,
+	Story_21,
 
 	//Other
 	Menu,

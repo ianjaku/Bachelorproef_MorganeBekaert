@@ -1,49 +1,26 @@
-import { default as React, useState } from 'react';
+import { default as React } from 'react';
 import { useHistory } from 'react-router-dom';
 import * as Assets from '../../assets';
-import { Header, Footer } from '../../components';
+import { Header, Footer  } from '../../components';
 
 import './story.scss';
 
 const Story02 = () => {
 	const history = useHistory();
 
-	const [ score, setScore ] = useState(0);
-
-	if ( score === 10 ) {
-		history.push('/story/3');
-	}
-
-	const game = () => {
-		const style = {
-			transform: 'translateY(' + Math.random()*90 + 'vh) translateX(' + Math.random()*80 + 'vw) rotate(' + Math.random()*360 + 'deg)',
-		}
-
-		return (
-			<img 
-				className="story02__game-element" src={Assets.Acorn} 
-				onClick={ () => setScore(score + 1) }
-				style= { style }
-			></img>
-		)
-	}
-
 	return (
 		<div className="story02">
 			<Header/>
-			<img className="story02__sun" src={Assets.Sun}></img>
-			<img className="story02__bird" src={Assets.Bird}></img>
-			<img className="story02__tree" src={Assets.TreeGame}></img>
-			<img className="story02__snuitertje" src={Assets.SnuitertjeStand}></img>
-
-			<h2 className="story02__text">Snuitertje speelt graag spelletjes met Grote Boom.
-											Helpen jullie mee om 10 eikels van Grote Boom te vangen?
-											Zoek de eikels en tik er op.</h2>
-			<h1 className="story02__score">{score}</h1>
-			<div className="story02__game">
-				{ game() }
+			<h1>Snuiter speelt vaak in het bos, zijn beste vriend daar is Grote Boom.</h1>
+			<img alt="Zon" className="story02__sun" src={Assets.Sun} ></img>
+			<img alt="Vogel" className="story02__bird" src={Assets.Bird}></img>
+			<img alt="Grote Boom" className="story02__tree" src={Assets.TreeStart}></img>
+			<div className="story02__wrapper" onClick={ () => history.push('/story/3') }>
+				<h2>Gaan jullie mee met Snuiter in het bos?</h2>
+				<img alt="Ga verder" className="story02__wrapper-arrow" src={Assets.ArrowNext}></img>
 			</div>
 
+			
 			<Footer audio={Assets.mp3_story2} />
 
 		</div>
@@ -51,3 +28,4 @@ const Story02 = () => {
 }
 
 export default Story02;
+

@@ -11,17 +11,22 @@ const Story01 = () => {
 	return (
 		<div className="story01">
 			<Header/>
-			<h1>Snuiter speelt vaak in het bos, zijn beste vriend daar is Grote Boom.</h1>
-			<img className="story01__sun" src={Assets.Sun} alt="sun"></img>
-			<img className="story01__bird" src={Assets.Bird} alt="bird"></img>
-			<img className="story01__tree" src={Assets.TreeStart} alt="tree"></img>
-			<div className="story01__wrapper" onClick={ () => history.push('/story/2') }>
-				<h2>Gaan jullie mee met Snuiter in het bos?</h2>
-				<img className="story01__wrapper-arrow" src={Assets.ArrowNext}></img>
+			<h1>Waar willen jullie starten met lezen?</h1>
+			<img alt="Grpte Boom" className="story01__tree" src={Assets.TreeStart} ></img>
+			<div className="story01__wrapper">
+				<h2 onClick={ () => history.push('/story/2') }>Volledige verhaal</h2>
+				<h2 onClick={ () => history.push('/story/3') }>1.Het slechte nieuws </h2>
+				<h2 onClick={ () => history.push('/story/6') }>2. De operatie</h2>
+				<h2 onClick={ () => history.push('/story/9') }>3. Snuitertjes beste vriend</h2>
+				<h2 onClick={ () => history.push('/story/12') }>4. Zieke Grote Boom</h2>
+				<h2 onClick={ () => history.push('/story/16') }>5. Nieuwe medicijnen</h2>
+				<h2 onClick={ () => history.push('/story/19') }>6. Het laatste steentje</h2>
+				{/* <img className="story01__wrapper-arrow" src={Assets.ArrowNext}></img> */}
 			</div>
 
 			
-			<Footer audio={Assets.mp3_story1} />
+			<Footer  />
+			{/* audio={Assets.mp3_story1} */}
 
 		</div>
 	)

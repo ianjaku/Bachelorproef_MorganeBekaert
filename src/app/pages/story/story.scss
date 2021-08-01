@@ -70,6 +70,56 @@
 	}
 	&__wrapper {
 		position: absolute;
+		top: 20vh; 
+		right: 6vw;
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		h2 {
+			margin: 0;
+			font-size: 24px;
+			color: $color-brown;
+			padding-top: 3vh;
+		}
+		&-arrow {
+			width: 272px;
+			height: 128px;
+		}
+	}
+}
+.story02 {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	h1 {
+		position: absolute;
+		margin: 0;
+		top: 20vh;
+		left: 7vw;
+		font-size: 28px;
+		color: $color-brown;
+	}
+	&__sun {
+		position: absolute;
+		right: 0;
+		width: 281px;
+		height: 272px;
+	}
+	&__bird {
+		position: absolute;
+		right: 0;
+		padding: 80px 60px;
+		width: 320px;
+		height: 186px;
+	}
+	&__tree {
+		position: absolute;
+		bottom: 0;
+		width: 900px;
+		height: 674px;
+	}
+	&__wrapper {
+		position: absolute;
 		top: 40vh; 
 		right: 6vw;
 		display: flex;
@@ -86,7 +136,7 @@
 		}
 	}
 }
-.story02 {
+.story03 {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -146,7 +196,7 @@
 		&-element {}
 	}
 }
-.story03 {
+.story04 {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -192,7 +242,7 @@
 		width: 400px;
 	}
 }
-.story04 {
+.story05 {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -264,7 +314,7 @@
 		z-index: 20;
 		}
 }
-.story05 {
+.story06 {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -329,7 +379,7 @@
 		width: 200px;
 		height: 140px;
 	}
-	#dropzone5 {
+	#dropzone6 {
 		position: absolute;
 		top: 60px;
 		left: 100px;
@@ -337,7 +387,7 @@
 		height: 250px;
 	}
 }
-.story06 {
+.story07 {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -410,7 +460,7 @@
 		width: 320px;
 		height: 260px;
 	}
-	#dropzone6 {
+	#dropzone7 {
 		position: absolute;
 		bottom: 110px;
 		left: 230px;
@@ -418,7 +468,7 @@
 		height: 210px;
 	}
 }
-.story07{
+.story08{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -494,14 +544,14 @@
 		height: 299px;
 		transform: scale(-1,1);		
 	}
-	#dropzone7 {
+	#dropzone8 {
 		position: absolute;
 		bottom: 0;
 		width: 280px;
 		height: 310px;
 	}	
 }
-.story08{
+.story09{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -596,7 +646,7 @@
 		width: 240px;
 		height: 366px;
 	}
-	#dropzone8 {
+	#dropzone9 {
 		position: absolute;
 		bottom: 13vh;
 		left: 44vw;
@@ -604,7 +654,7 @@
 		height: 350px;
 	}	
 }
-.story09{
+.story10{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -665,7 +715,7 @@
 		width: 25vw;	
 }
 }
-.story10{
+.story11{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -714,7 +764,7 @@
 		height: 128px;
 		}
 }
-.story11{
+.story12{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -739,8 +789,15 @@
 		color: $color-darkBrown;
 		width: 35vw;
 	}
+	&__arrow {
+		position: absolute;
+		top: 35vh; 
+		left: 10vw;
+		width: 272px;
+		height: 128px;
+		}
 }
-.story12{
+.story13{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -781,8 +838,15 @@
 		color: $color-darkBrown;
 		width: 30vw;
 	}
+	&__arrow {
+		position: absolute;
+		bottom: 11vh; 
+		left: 10vw;
+		width: 272px;
+		height: 128px;
+		}
 }
-.story13{
+.story14{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -820,7 +884,7 @@
 		left: 10vw;
 		height: 317px;
 	}
-	#dropzone13 {
+	#dropzone14 {
 		position: absolute;
 		bottom: 8vh;
 		left: 10vw;
@@ -828,7 +892,7 @@
 		height: 270px;
 	}	
 }
-.story14{
+.story15{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -870,8 +934,15 @@
 		color: $color-brown;
 		width: 35vw;
 	}
+	&__arrow {
+		position: absolute;
+		bottom: 11vh; 
+		left: 10vw;
+		width: 272px;
+		height: 128px;
+		}
 }
-.story15{
+.story16{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -913,7 +984,7 @@
 		width: 35vw;
 	}
 }
-.story16{
+.story17{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -953,7 +1024,7 @@
 		width: 35vw;
 	}
 }
-.story17{
+.story18{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -996,7 +1067,7 @@
 		width: 35vw;
 	}
 }
-.story18{
+.story19{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -1030,7 +1101,7 @@
 		width: 25vw;
 	}
 }
-.story19{
+.story20{
 	position: relative;
 	width: 100vw;
 	height: 100vh;
@@ -1080,7 +1151,7 @@
 		right: 17vw;
 		height: 71px;
 	}
-	#dropzone19 {
+	#dropzone20 {
 		position: absolute;
 		left: 43vw;
 		bottom: 10vh;
@@ -1088,7 +1159,7 @@
 		height: 211px;
 	}
 }
-.story20{
+.story21{
 	position: relative;
 	width: 100vw;
 	height: 100vh;

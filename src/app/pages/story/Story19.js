@@ -1,6 +1,5 @@
-import { default as React, useRef } from 'react';
+import { default as React } from 'react';
 import { useHistory } from 'react-router-dom';
-import Draggable from 'react-draggable';
 import * as Assets from '../../assets';
 import { Header, Footer } from '../../components';
 
@@ -8,46 +7,24 @@ import './story.scss';
 
 const Story19 = () => {
 	const history = useHistory();
-	const acornRef = useRef();
-
-	const onDrop = (e) => {
-		console.log('Released the drop component');
-		if (e.classList.contains("hovered")) {
-			history.push('/story/20');
-		}
-	};
-
-	const onDropAreaMouseHover = (e) => {
-		console.log('Released the drop component inside the dropzone');
-		e.classList.add('hovered');
-	}
-
-
 
 	return (
 		<div className="story19">
-			
-			<img className="story19__tree" src={Assets.OtherTree}></img>
-			<img className="story19__snuitertje" src={Assets.SnuitertjeStand}></img>
-			<img className="story19__jar" src={Assets.JarWithSoil}></img>
-			<img className="story19__acornsRight" src={Assets.Acorns}></img>
-			<img className="story19__acornsLeft" src={Assets.Acorns}></img>
 			<Header/>
+			<img alt="Zieke Grote Boom" className="story19__tree" src={Assets.SickTree3}></img>
+			<img alt="Snuitertje" className="story19__snuitertje" src={Assets.SnuitertjeStand}></img>
+			<img alt=" Lege bokaal" className="story09__jar" src={Assets.JarProgress}></img>
+
 			
 			<p className="story19__text">
-			Snuiter vult zijn lege pot met aarde.
-			Hij wil er een nootje van Grote Boom in duwen.
+			En dan gooit Snuiter het laatste steentje in de rivier. De pot is leeg.
+			Maar Grote Boom ziet er nog steeds slap uit. Snuiter snapt het niet.
 			<br></br><br></br>
-			Helpen jullie mee? 
-			<br></br>Zoek het nootje van Grote Boom dat je kan slepen en stop het in de bokaal.
+			De dokter zegt: ‘De houtwormpjes zijn nu allemaal weg 
+			en ook de eitjes zijn door de zon helemaal weggestraald.
+			Nu kan Grote Boom stilletjesaan beter worden.’
 			</p>
-
-			<Draggable onStop={() => onDrop(acornRef.current)} >
-				<img className="story19__acorn" src={Assets.Acorn} ref={acornRef}></img>
-			</Draggable>
-
-			<div id="dropzone19" onMouseOver={() => onDropAreaMouseHover(acornRef.current)}></div>
-
+			
 			<Footer audio={Assets.mp3_story19} />
 
 		</div>

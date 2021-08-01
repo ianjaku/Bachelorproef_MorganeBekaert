@@ -67,7 +67,7 @@ import DoctorStone from './story/doctors/DoctorStone.png';
 import DoctorTree from './story/doctors/DoctorTree.png';
 
 //  voice
-import mp3_story1 from './voice/mp3_story1.m4a';
+// import mp3_story1 from './voice/mp3_story1.m4a';
 import mp3_story2 from './voice/mp3_story2.m4a';
 import mp3_story3 from './voice/mp3_story3.m4a';
 import mp3_story4 from './voice/mp3_story4.m4a';
@@ -87,6 +87,7 @@ import mp3_story17 from './voice/mp3_story17.m4a';
 import mp3_story18 from './voice/mp3_story18.m4a';
 import mp3_story19 from './voice/mp3_story19.m4a';
 import mp3_story20 from './voice/mp3_story20.m4a';
+import mp3_story21 from './voice/mp3_story21.m4a';
 
 export {
 	// Animals
@@ -157,7 +158,7 @@ export {
 	DoctorTree,
 
 	// voice
-	mp3_story1,
+	// mp3_story1,
 	mp3_story2,
 	mp3_story3,
 	mp3_story4,
@@ -177,4 +178,5 @@ export {
 	mp3_story18,
 	mp3_story19,
 	mp3_story20,
+	mp3_story21,
 }

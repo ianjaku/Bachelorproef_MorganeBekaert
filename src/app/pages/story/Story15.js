@@ -6,32 +6,27 @@ import { Header, Footer } from '../../components';
 import './story.scss';
 
 const Story15 = () => {
-
-	const styleSheet = document.styleSheets[0];
-	const keyframes = 
-	`@-webkit-keyframes doctor {
-        0% {-webkit-transform: translateX(0); } 
-        100% {-webkit-transform: translateX(-45vw) translateY(180px); }
-    }`;
-	styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
-
+	const history = useHistory();
 
 	return (
 		<div className="story15">
 			<Header/>
-			<img className="story08__sun" src={Assets.Sun}></img>
-			<img className="story15__tree" src={Assets.SickTreeSharp}></img>
-			<img className="story15__snuitertje" src={Assets.SnuitertjeBlanket}></img>
-			<img className="story15__doctor" src={Assets.DoctorStand} style={{animation: 'doctor ease-in 20s forwards'}}></img>
+			<img alt="Grote steen" className="story15__bigStone" src={Assets.BigStone}></img>
+			<img alt="Snuitertje" className="story15__snuitertje" src={Assets.SnuitertjeCrown}></img>
+			<img alt="Snuitertje spiegelbeeld" className="story15__snuitertje2" src={Assets.SnuitertjeCrown}></img>
+			<img alt="Steen" className="story15__stone" src={Assets.Stone}></img>
 			
 			<p className="story15__text">
-			Maar dan komt de dokter alweer. Met nieuwe medicijnen.
-			En Grote Boom wordt weer heel moe en slap. Er zitten nog altijd veel steentjes in de pot.
-			‘Kan ik iets doen voor Grote Boom?’ vraagt Snuiter aan de dokter.
-			‘Niet zoveel. Speel maar gewoon stilletjes in de buurt. 
-			Zo voelt Grote Boom zich minder alleen.’
-			Grote Boom is erg moe. Snuiter legt een dekentje over de wortels.
+			Het is een prachtige kroon geworden! Grote Boom is trots op Snuiter.
+			De blaadjes staan Snuiter goed. Met de kroon op zijn hoofd
+			huppelt Snuiter naar de rivier. Hij gaat het steentje van vandaag
+			in het water gooien.
+			Hij moet lachen om zijn spiegelbeeld in de rivier.
+			Snuiter vindt dat Grote Boom er vandaag heel goed uit ziet.
+			Nu zal Grote Boom wel snel genezen zijn, denkt Snuiter.
 			</p>
+
+			<img alt="Ga verder" className="story15__arrow" src={Assets.ArrowNext} onClick={ () => history.push('/story/16') }></img>
 
 
 			<Footer audio={Assets.mp3_story15} />
